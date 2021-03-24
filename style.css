@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-background-color:#D9B27A;
+background-color:#5cdb95;
     border: white;
     width: 100%;
     
@@ -149,12 +149,13 @@ justify-content: left;
 .place-3-text {
     padding: 10px;
 }
- @media(max-width: 300px){ 
-    .place-1 {
-        
-    }    
+@media(max-width:300px) {
+    .historical {
+        flex-direction: column;
+    }
+}
 
- }
+ 
     
 
 
