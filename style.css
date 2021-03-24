@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+background-color:#D9B27A;
+    border: white;
+    width: 100%;
+    
+}
+
+    body{
+        font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        background-color:white
+    }
+    
+
+    /****my hearder css*******/
+
+        .clearfix{
+            /* background-color: rgb(22, 139, 143); */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+
+    .myname {
+        padding: 20px;
+        font-family: cursive;
+        
+        
+    
+    }
+    
+    /*****ends*****/ 
+    /****section 2****/  
+    
+    .city {
+        /* background-color:limegreen; */
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 30px;
+        font-family: cursive;
+
+    }
+    .image {
+        /* float: left; */
+        display: flex;
+        padding: 10px;
+        
+    }
+    /* .clearfix {
+
+    } */
+    .cityname {
+        padding: 10px;
+    }
+    .text {
+        padding: 10px;
+        
+        
+    }
+    
+    /*****end of section 2****/
+    /*******sectin 3******/
+
+    .foreign {
+        /* background-color: orange; */
+        padding: 18px;
+        font-family: cursive;
+        
+        
+    }
+    .content {
+        padding: 10px;
+        
+    }
+    .table1 {
+        /* background-color: blue; */
+        width: 400px;
+
+    }
+
+        /* table {
+        width: 400px;
+        float: left;
+    } */
+    th {
+        text-align:center;
+        
+    }
+    table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        width: 900px;
+
+ } 
+td {
+    text-align:center;
+}
+/*******end of sectoin 3*****/
+/*******section 4****/
+
+
+
+
+
+
+.historical {
+    /* background-color: brown;  */
+    padding:10px;
+      display: flex;
+      justify-content: right;
+      font-family: cursive;
+    
+    
+
+    
+    
+}
+.place-1 {
+     
+display: flex;
+padding: 10px;
+justify-content: left;
+
+
+
+
+}
+.place-1-text {
+    padding-left: 20px;
+
+}
+.place-2 {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+     
+}
+.place-2-text{
+    padding-left: 20px;
+}
+.place-3 {
+    display: flex;
+    padding: 10px;
+    justify-content: left;
+}
+.place-3-text {
+    padding: 10px;
+}
+ @media(max-width: 300px){ 
+    .place-1 {
+        
+    }    
+
+ }
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+    
