@@ -1,9 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-background-color:#5cdb95;
+background-color:#DC143C;
     border: white;
-    width: 100%;
+    
     
 }
 
@@ -38,8 +38,7 @@ background-color:#5cdb95;
         /* background-color:limegreen; */
         align-items: center;
         justify-content: center;
-        width: 100%;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         font-family: cursive;
 
     }
@@ -60,6 +59,10 @@ background-color:#5cdb95;
         
         
     }
+
+    
+        
+    
     
     /*****end of section 2****/
     /*******sectin 3******/
@@ -130,12 +133,14 @@ justify-content: left;
 }
 .place-1-text {
     padding-left: 20px;
+    
 
 }
 .place-2 {
     display: flex;
     padding: 10px;
     justify-content: left;
+    
      
 }
 .place-2-text{
@@ -147,13 +152,91 @@ justify-content: left;
     justify-content: left;
 }
 .place-3-text {
-    padding: 10px;
+    padding-left: 20px;
 }
-@media(max-width:300px) {
-    .historical {
+/***@media Q***/
+@media screen and (max-width:600px){
+    .clearfix{
         flex-direction: column;
     }
 }
+@media screen and (max-width:600px){
+    .city {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+        font-family: cursive;
+    }
+
+    .image {
+        display: flex;
+        /* padding: 10px;? */
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 0;
+        
+    }
+
+    .text {
+        padding: 10px;
+        font-size: initial;
+        
+        
+    }
+}
+   @media screen and (max-width:600px) {
+    table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        width: 300px;
+
+ } 
+}
+    @media screen and (max-width:600px) {
+    .historical {
+        flex-direction: column;
+        
+
+    }
+    place-1 {
+     
+        display: flex;
+        padding: 10px;
+        height: auto;
+        
+        
+        
+        
+        
+        }
+        .place-1-text {
+            padding-left: 20px;
+            
+            
+        
+        }
+        .place-2 {
+            display: flex;
+            padding: 10px;
+            justify-content: left;
+            align-items: center;
+            
+             
+        }
+        .place-2-text{
+            padding-left: 20px;
+            text-align: right;
+        }
+        .place-3 {
+            display: flex;
+            padding: 10px;
+            justify-content: left;
+            align-items: left;
+        }
+        .place-3-text {
+            padding-left: 20px;
+        }
+    }
 
  
     
