@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-background-color:#DC143C;
+background-color:#DC143C; 
     border: white;
     
     
@@ -9,7 +9,8 @@ background-color:#DC143C;
 
     body{
         font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-        background-color:white
+        
+    
     }
     
 
@@ -55,9 +56,8 @@ background-color:#DC143C;
         padding: 10px;
     }
     .text {
+        
         padding: 10px;
-        
-        
     }
 
     
@@ -71,6 +71,7 @@ background-color:#DC143C;
         /* background-color: orange; */
         padding: 18px;
         font-family: cursive;
+        margin-top: -30px;
         
         
     }
@@ -78,29 +79,16 @@ background-color:#DC143C;
         padding: 10px;
         
     }
-    .table1 {
-        /* background-color: blue; */
-        width: 400px;
+    
 
-    }
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 900px;
+    align-items:center ;
+    
+ }
 
-        /* table {
-        width: 400px;
-        float: left;
-    } */
-    th {
-        text-align:center;
-        
-    }
-    table, th, td {
-        border: 1px solid #000;
-        border-collapse: collapse;
-        width: 900px;
-
- } 
-td {
-    text-align:center;
-}
 /*******end of sectoin 3*****/
 /*******section 4****/
 
@@ -114,131 +102,100 @@ td {
     padding:10px;
       display: flex;
       justify-content: right;
-      font-family: cursive;
-    
-    
+      font-family: cursive; 
+      list-style: none; 
 
-    
     
 }
-.place-1 {
-     
-display: flex;
-padding: 10px;
-justify-content: left;
-
-
-
-
+.place{
+    display: flex;
+    /* list-style: none; */
+    padding: 10px;
 }
-.place-1-text {
-    padding-left: 20px;
-    
-
+.place-1{
+    padding: 10px;
 }
 .place-2 {
     display: flex;
-    padding: 10px;
-    justify-content: left;
     
-     
-}
-.place-2-text{
-    padding-left: 20px;
+    
 }
 .place-3 {
-    display: flex;
     padding: 10px;
-    justify-content: left;
 }
-.place-3-text {
-    padding-left: 20px;
-}
-/***@media Q***/
-@media screen and (max-width:600px){
-    .clearfix{
-        flex-direction: column;
-    }
-}
-@media screen and (max-width:600px){
-    .city {
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 20px;
-        font-family: cursive;
-    }
 
-    .image {
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+/***@media Q***/
+
+    @media screen and (max-width:800px) {
+    .historical {
         display: flex;
-        /* padding: 10px;? */
         flex-direction: column;
         flex-wrap: wrap;
-        width: 0;
         
-    }
-
-    .text {
-        padding: 10px;
-        font-size: initial;
-        
-        
-    }
-}
-   @media screen and (max-width:600px) {
-    table, th, td {
-        border: 1px solid #000;
-        border-collapse: collapse;
-        width: 300px;
-
- } 
-}
-    @media screen and (max-width:600px) {
-    .historical {
-        flex-direction: column;
-        
-
-    }
-    place-1 {
-     
-        display: flex;
-        padding: 10px;
-        height: auto;
-        
-        
-        
-        
-        
+   
         }
-        .place-1-text {
-            padding-left: 20px;
-            
-            
-        
-        }
-        .place-2 {
+        .place-2{
             display: flex;
-            padding: 10px;
-            justify-content: left;
+        }
+        .img-2 {
+            order: -1;
+            width: 46%;
+            margin-right: 10%;
+        }
+        
+        
+        
+        .clearfix{
+            flex-direction: column;
+        }
+        .city {
             align-items: center;
+            justify-content: center;
+            padding-bottom: 20px;
+            font-family: cursive;
             
-             
+            
         }
-        .place-2-text{
-            padding-left: 20px;
-            text-align: right;
-        }
-        .place-3 {
+    
+        .image {
             display: flex;
+             padding: 10px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width:100%;
+            
+        }
+    
+        .text {
             padding: 10px;
-            justify-content: left;
-            align-items: left;
+            font-size: initial;
+            
+            
         }
-        .place-3-text {
-            padding-left: 20px;
-        }
+        table, th, td {
+            border: 1px solid #000;
+            border-collapse: collapse;
+            width: 400px;
+         }
+        
+        
     }
 
- 
+     
+
+
+    
     
 
 
