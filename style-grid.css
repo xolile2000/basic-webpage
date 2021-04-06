@@ -1,0 +1,17 @@
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 900px;
+    align-items:center ;
+    
+ }
+ .hall img {
+     float: left;
+     padding: 10px;
+ }
+ /* @media only screen and (min-width:33.75em) {
+     .place-1-image {
+         float:right;
+
+     }
+ } */
