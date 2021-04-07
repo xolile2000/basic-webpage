@@ -4,25 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>landing page</title>
 </head>
 <style>
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container {
+    background : url(img/blackwallpaper.jpg);
+ background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+     flex-direction: column; 
+     justify-content: center;
+     align-items: center;
+}
+.heading h1 {
+    font-size: 100px;
+    color: white;
+}
+.btn {
+    border-radius: 0px;
+    border:none;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+    /* background-color:violet; */
+    box-shadow: white;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    
+}
 
 </style>
 <body>
     <div class="container">
         <div class="heading">
-            <h1>landing page</h1>  
+            <h1>basic web pages project</h1>  
         </div>
-    
-        <ul>
-            <li>
-                <a href="my-webpage.html">my-webpage</a>
-                </li>
-                <li>
-                    <a href="my-webpage-grid.html">my-webpage-grid</a>
-                </li>
-           </ul>   
+    <button class="btn" ><a href="my-webpage.html">my-webpage</a></button>
+     <button class="btn"><a href="my-webpage-grid.html">my-webpage-grid</a></button>             
+    </div>
+    <div class="footer">
+        <p>xolilentanzi@gmail.com</p>
     </div>
 
 

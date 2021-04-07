@@ -52,6 +52,7 @@ background-color:#DC143C;
         display: flex;
         padding: 10px;
         
+        
     }
     
     .cityname {
@@ -107,6 +108,7 @@ table, th, td {
       font-family: Georgia, serif;
       list-style: none; 
 
+
     
 }
 .place-1-hal{
@@ -121,7 +123,7 @@ table, th, td {
     
 } 
 .place-2-cas {
-    display: flex;
+     display: flex;
     padding: 20px;
     align-items: center;
     margin-right: 20px;
@@ -157,29 +159,26 @@ table, th, td {
 
 /***@media Q***/
 
-    @media screen and (max-width:800px) {
+    @media screen and (max-width:600px) {
     .historical {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         flex-wrap: wrap;
-        
-   
         }
-        .place-2-cas{
+
+        .place-2-cas{ 
             display: flex;
-            /* float: left; */
-         }
+            
+         } 
         .img-2 {
             order: -1;
+            /* float: right; */
+/* background-color: blue; */
              /* width: 46%; */
             /* margin-right: 10%; */
             padding: 10px;
         }
-        
-
-
-
-
+    
         .clearfix{
             flex-direction: column;
         }
