@@ -172,17 +172,21 @@ table, th, td {
 
     @media screen and (max-width:600px) {
     .historical {
-        /* display: flex; */
+        display: flex; 
         flex-direction: column;
         flex-wrap: wrap;
         }
 
         .place-2-cas{ 
-            display: flex;
+            /* display: flex; */
+            
+
             
          } 
         .img-2 {
-            order: -1;
+            float: left;
+
+
             padding: 10px;
         }
     
