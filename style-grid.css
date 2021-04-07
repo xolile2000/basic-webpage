@@ -5,16 +5,23 @@ table, th, td {
     align-items:center ;
     
  }
+ .table img {
+     width: 100%;
+ }
+ .city img {
+     width: 100%;
+ }
  .hall img {
      float: left;
      padding: 10px;
+     margin: auto;
      
  }
- 
- 
- /* @media only screen and (min-width:33.75em) {
-     .place-1-image {
-         float:right;
-
+@media screen and (max-width:600px){
+    table, th, td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        width: 400px;
      }
- } */
+}
+ 
