@@ -119,6 +119,7 @@ table, th, td {
 .place-1-image{
     height: 133px;
     margin-right:20px ;
+    margin-left: 10px;
     
     
 } 
@@ -134,6 +135,7 @@ table, th, td {
 }
 .img-2 {
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .place-3-izi{
@@ -143,6 +145,7 @@ table, th, td {
 }
 .place-3-image {
     margin-top: 10px;
+    margin-left: 10px;
 
 }
 
